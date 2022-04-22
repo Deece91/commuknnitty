@@ -1,0 +1,241 @@
+body{
+    background-color: #ffffff;
+    color:rgb(0, 0, 0);
+}
+
+@font-face {
+    font-family: RightGrotesk-SpatialBlack;
+    src: url(/Users/danclarke/Desktop/Projects/CommuKnitty/Phase1/Assets/FONTS/RightGrotesk-FreeforPersonalUse/RightGrotesk-SpatialBlack.otf);
+}
+
+@font-face {
+    font-family: RightGrotesk-WideMedium;
+    src: url(/Users/danclarke/Desktop/Projects/CommuKnitty/Phase1/Assets/FONTS/RightGrotesk-FreeforPersonalUse/RightGrotesk-WideMedium.otf);
+}
+
+@font-face {
+    font-family: Editorial New;
+    src: url(/Users/danclarke/Desktop/Projects/CommuKnitty/Phase1/Assets/FONTS/EditorialNew-FreeforPersonalUse/EditorialNew-Ultralight.otf);
+}
+
+h1{
+    font-family: RightGrotesk-SpatialBlack;
+    letter-spacing: 8px;
+}
+
+h2{
+    font-family: RightGrotesk-SpatialBlack;
+}
+p{
+    font-family: EditorialNew-UltraLight;
+    line-height: 25px;
+    letter-spacing: 2.5px;
+}
+
+a{
+    font-family: RightGrotesk-WideMedium;
+    letter-spacing: 8px;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    border-top: rgb(0, 0, 0) solid 1px;
+    border-bottom: rgb(0, 0, 0) solid 1px;
+    background-color: rgb(213, 249, 97);
+    color: rgb(210, 35, 42);
+    padding: 0 5px;
+}
+
+
+
+
+/* home page / about page */
+
+
+.landing h1{
+    text-align: center;
+    margin-top:65px;
+    font-size: 65px;
+}
+
+.landing p{
+    width: 70%;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.landing-buttons{
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+
+.landing-buttons h1{
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.hero-button{
+    background-color: rgb(191, 174, 254);
+    padding:10px;
+    border-radius: 50px;
+    color: #ffffff;
+}
+
+/* Mentoring Programme */
+
+.page{
+    display: flex;
+}
+.left{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(51, 102, 204);
+}
+
+.right{
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(168, 194, 229);
+}
+
+.left-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.left-text h1{
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.left-text p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    color: white;
+    font-size: 15px;
+    line-height: 1;
+}
+
+.mentor-buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 45px;
+}
+
+.mentor-button{
+    background-color: rgb(255, 255, 255);
+    padding:10px;
+    border-radius: 50px;
+    color: #000000;
+}
+
+.mentor-buttons h2{
+    font-size: 12px;
+    text-align: center;
+}
+
+/* Contact Us Page */
+.contact{
+    width:100%;
+}
+
+.contact h1{
+    text-align: center;
+    margin-top:65px;
+    font-size: 65px;
+}
+
+.contact p{
+    width:85%;
+    text-align: center;
+    font-size: 32px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact a{
+    text-decoration: underline;
+    color: white;
+    font-weight: 600;
+    letter-spacing: normal;
+}
+
+.contact a:hover{
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+/* Menu / Nav Styles */
+
+.menu-toggle{
+    z-index: 3;
+    display: block;
+    position:absolute;
+    right: 30px;
+    bottom:20px;
+}
+
+.menu-toggle div{
+        width: 55px;
+        height: 6px;
+        background-color: rgb(0, 0, 0);
+        margin: 4px 0;
+}
+
+.menu{
+    background-color: rgb(51, 102, 204);
+    width: 350px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width:100%;
+    transform: translateX(-100%);
+  }
+  
+  .open{
+    transform: translateX(0);
+  }
+  
+  .nav{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 130px;
+  }
+  
+  .nav a{
+    font-size: 65px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+  .nav a:hover{
+      text-decoration: none;
+  }
+
+  .logo{
+    display: block;
+    height:150px;
+    width:150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 55px;
+  }
